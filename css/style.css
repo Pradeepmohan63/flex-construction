@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+#service{
+	margin-top:20px;
+}
+.container{
+	width:80%;
+	margin:0 auto;
+}
+
+.row{
+	display:flex;
+}
+
+
+.col1{
+	padding:0 15px;
+	width:50%;
+}
+.col1{
+	background-image:url("../images/services.jpg");
+	background-position:center;
+	background-size:cover;
+	
+}
+
+.col2{
+    padding:0 15px;
+	width:50%;
+}
+
+div > p{
+	color:grey;
+}
+
+div > h1,h3,p{
+	padding-bottom:20px;
+}
+.sub{
+	display:flex;
+	padding-bottom:10px;
+
+}
+.para1{
+	margin-left:20px;
+}
+
+
+.icon{
+	height:40px;
+	width:60px;
+	font-size:20px;
+	border:solid 1px;
+	color:orange;
+	border-radius:5px;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+}
+
+
+.sub:hover .icon{
+	background-color:orange;
+	color:white;
+}
+
+.sub:hover h3{
+	color:orange;
+}
